@@ -33,7 +33,7 @@ const SignIn = () => {
                     <FormField
                         title="Password"
                         value={form.password}
-                        handleChangeText={(e) => setForm({ ...form, passsword: e })}
+                        handleChangeText={(e) => setForm({ ...form, password: e })}
                         otherStyle="mt-7"
                     />
                 </View>
